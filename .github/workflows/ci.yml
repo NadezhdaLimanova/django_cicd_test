@@ -1,0 +1,10 @@
+name: Выполнение домашнего задания по развертыванию проекта на сервере
+
+on:
+  push:
+    branches: [ci]
+
+jobs:
+  tests:
+    runs-on: ubuntu:20.04
+    env:
