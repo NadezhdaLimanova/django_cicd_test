@@ -2,7 +2,8 @@ name: Выполнение домашнего задания по разверт
 
 on:
   push:
-    branches: [ci]
+    branches:
+      - main
 
 jobs:
   tests:
